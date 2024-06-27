@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocina Digital</title>
+    <link rel="stylesheet" href="app/src/css/css.css">
+</head>
+<body>
+    <div id="app">
+        <Header :nombre="myNombre" :apellido="myApellido" />
+        <div class="container">
+            <div class="ingredients">
+                <h1>Selecciona tus Ingredientes</h1>
+                <div id="ingredientes">
+                    <label v-for="ingrediente in ingredientes" :key="ingrediente">
+                        <input type="checkbox" :value="ingrediente" v-model="seleccionados"> {{ ingrediente }}
+                    </label>
+                </div>
+            </div>
+            <Receta :receta="receta" />
+        </div>
+        <button class="btn-cocinar" @click="cocinar">Cocinar</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script type="module" src="app/src/app.js"></script>
+</body>
+</html>

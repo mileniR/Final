@@ -1,0 +1,35 @@
+{
+    "ingredientes": ["Tomate", "Queso", "Jamonada", "Lechuga", "Pan", "Pollo", "Arroz", "Apio", "Cebolla", "Fideos"],
+    "recetas": [
+        {
+            "nombre": "Salpicon de Pollo",
+            "ingredientes": ["Pollo","Tomate", "Cebolla","Lechuga","Arroz","Apio"],
+            "imagen": "img/salpicon.jpg"
+        },
+        {
+            "nombre": "Pan con Pollo",
+            "ingredientes": ["Pan", "Pollo", "Apio","Lechuga","Tomate"],
+            "imagen": "img/pan con pollo.jpg"
+        },
+        {
+            "nombre": "Sándwich de Jamonada y Queso",
+            "ingredientes": ["Pan", "Jamonada", "Queso" ],
+            "imagen": "img/sandwich.jpg"
+        },
+        {
+            "nombre": "Arroz con pollo",
+            "ingredientes": ["Pollo", "Arroz","Cebolla"],
+            "imagen": "img/arrozconpollo.png"
+        },
+        {
+            "nombre": "Caldo de Pollo",
+            "ingredientes": ["Pollo", "Fideos", "Apio"],
+            "imagen": "img/caldo.jpg"
+        },
+        {
+            "nombre": "Tallarin",
+            "ingredientes": ["Fideos", "Tomate", "Pollo", "Cebolla"],
+            "imagen": "img/tallarin.jpg"
+        }
+    ]
+}

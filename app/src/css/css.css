@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ingredients {
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Alineación centrada del contenido */
+}
+
+#ingredientes {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+button {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #4c87af;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block; /* Hace que el botón sea un bloque en línea */
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+.recipe {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.recipe h2 {
+    margin-bottom: 10px;
+}
+
+.recipe .ingredientes {
+    margin-bottom: 20px;
+}
+
+.recipe .ingredientes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipe .ingredientes li {
+    margin-bottom: 5px;
+}
+
+.recipe img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
